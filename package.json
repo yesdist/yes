@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "node ./build.js"
+  },
+  "devDependencies": {
+    "ejs": "^3.0.1"
+  }
+}
