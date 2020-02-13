@@ -6,11 +6,11 @@ const compileHtml = fileName => {
     if (err) {
       console.error('renderFile error:', err);
     } else {
-      fs.writeFile(`./dist/${fileName}.html`, str, function(err) {
+      fs.writeFile(`./docs/${fileName}.html`, str, function(err) {
         if (err) {
           console.error('writeFile error:', err);
         } else {
-          console.log(`./dist/${fileName}.html file was created`);
+          console.log(`./docs/${fileName}.html file was created`);
         }
       });
     }
