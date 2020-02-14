@@ -8487,7 +8487,7 @@ body.page-transition-active {
 	opacity: 0 !important;
 }
 
-/* 
+/*
 Image 360┬║ Viewer
 Credits: Codyhouse (https://codyhouse.co/gem/360-degrees-product-viewer)
 */
@@ -10033,6 +10033,7 @@ section.section.section-with-divider .divider {
 }
 
 section.section.section-footer {
+	background-color: #fff;
 	margin-bottom: -50px;
 }
 
